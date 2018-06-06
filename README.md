@@ -1,6 +1,6 @@
 # terraform-deployment
 # For provisioning purpose terraform is being used.
-# Summury command will be
+# Summary command will be
 
 $ terraform init  # only needed once while/if getting error on first plan.
 
@@ -35,8 +35,8 @@ var.tag_name
 var.tag_owner
   Your email address which will be added to object tags.
 
-  Enter a value: hello@clairvoyantsoft.com
+  Enter a value: psaywankar123@gmail.com
 
 ...
 
-terraform destroy
+terraform destroy - after the demo or provision infra is not in use run this command to destroy the instances and other resources.
